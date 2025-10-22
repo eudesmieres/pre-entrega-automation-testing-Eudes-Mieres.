@@ -18,15 +18,15 @@ Cumplir las consignas obligatorias con **esperas explícitas**, código organiza
 - Pytest-HTML (reporte)
 
 ## 📁 Estructura
---> README.md
---> reports/ # (se genera en runtime)
---> reporte.html # (pytest --html)
---> screenshots/ # (autogenerado en fallos)
---> test/
---> test_saucedemo.py # login + catálogo + carrito
---> utils/
---> init.py
---> helpers.py # driver + login (con esperas explícitas)
+- README.md
+- reports/ # (se genera en runtime)
+- reporte.html # (pytest --html)
+- screenshots/ # (autogenerado en fallos)
+- test/
+- test_saucedemo.py # login + catálogo + carrito
+- utils/
+- init.py
+- helpers.py # driver + login (con esperas explícitas)
 
 ## requirements.txt mínimo:
 selenium==4.36.0
